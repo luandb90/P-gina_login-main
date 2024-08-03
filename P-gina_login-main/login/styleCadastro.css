@@ -1,0 +1,383 @@
+body {
+    display: flex;
+    font-family: Arial, sans-serif;
+    background-color: rgb(28, 28, 42);
+}
+.container{
+    width: 100%;
+    height: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.all {
+    display: flex;
+    background-color: rgb(237, 240, 240);
+    justify-content: center;
+    width: 680px;
+    height: 660px;
+    margin-left: 50px;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+
+.caixa-nome{
+    padding: 8px;
+    margin-top: 50px;
+    margin-left: -5px;
+    width: 270px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.caixa_sobrenome{
+    margin-top: -67px;
+    margin-left: 320px;
+
+
+}
+
+.caixa-sobrenome{
+    padding: 8px;
+    margin-left: 320px;
+    margin: 0%;
+    border-radius: 5px;
+    width: 270px;
+    height: 30px;
+    font-size: 15px;
+}
+
+.caixa-email{
+    padding: 8px;
+    margin-top: -20px;
+    border-radius: 5px;
+    margin-left: -5px;
+    width: 597px;
+    height: 30px;
+    font-size: 15px;
+}
+
+.caixa-senha{
+    padding: 8px;
+    margin-top: 2px;
+    border-radius: 5px;
+    margin-left: -5px;    
+    width: 597px;
+    height: 30px;
+    font-size: 15px;
+}
+
+#icon{
+    transform: translateY(-130%);
+    background: url("./img/on.png");
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    margin-left: 560px;
+}
+
+#icon.hide{
+    background: url("./img/off.png");
+    background-size: cover;
+}
+
+.all_nascimento{
+    margin-top: -40px;
+}
+
+.all_nascimento_caixas{
+    margin-top: 23px;
+    margin-left: -23px;
+}
+
+.h1_data{
+    margin-left: -5px;
+    font-size: 20px;
+    width: px;
+    margin-top: 60px;
+}
+
+.dia{
+    margin-left: 20px;
+    padding: 8px 20px;
+    font-size: 15px;
+}
+
+.mes{
+    margin-left: 20px;
+    padding: 8px 20px;
+    font-size: 15px;
+}
+
+.ano{
+    margin-left: 20px;
+    padding: 8px 20px;
+    font-size: 15px;
+}
+
+.all_genero{
+    margin-top: 20px;
+}
+
+.nome_genero{
+    margin-left: -5px;
+    font-size: 20px;
+}
+
+.all_genero_caixas{
+    margin-top: 30px;
+    margin-left: -23px;
+
+}
+
+.radio_F{
+    margin-left: 20px;
+    border: 1px solid;
+    padding: 10px 10px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(28, 28, 42);
+
+}
+
+.radio_F:hover{
+    border-color: rgb(8, 112, 172);
+}
+
+.radio_M{
+    margin-left: 20px;
+    border: 1px solid;
+    padding: 10px 10px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(28, 28, 42);
+}
+
+.radio_M:hover{
+    border-color: rgb(8, 112, 172);
+}
+
+.radio_N{
+    margin-left: 20px;
+    border: 1px solid;
+    padding: 10px 10px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(28, 28, 42);
+
+}
+
+.radio_N:hover{
+    border-color: rgb(8, 112, 172);
+}
+
+.linha{
+    color: rgb(162, 162, 162);
+}
+
+.botao_cadastre-se{
+    margin-top: 40px;
+    margin-left: 130px;
+}
+
+#cadastre-se{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    font-size: 30px;
+    border: 1px solid;
+    border-color: rgb(255, 255, 255);
+    padding: 10px 100px;
+    color: aliceblue;
+    background-color: rgb(44, 165, 42);
+    border-radius: 20px;
+
+}
+
+#cadastre-se:hover{
+    background-color: rgb(61, 190, 59);
+
+}
+
+.botao_jatenhoConta{
+    margin-top: 50px;
+    margin-left: 207px;
+}
+
+#jatenhoConta{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    font-size: 20px;
+    border: 0px solid;
+    border-color: black;
+    padding: 10px 20px;
+    color: aliceblue;
+    background-color: rgb(8, 112, 172);
+    border-radius: 10px;
+
+}
+
+#jatenhoConta:hover{
+    background-color: rgb(40, 132, 186);
+
+}
+
+@media screen and (max-width: 768px) {
+    .containe{
+    width: 100%;
+    height: 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+    }
+    
+    .all{
+        display: flex;
+        text-align: center;
+        margin-top: 20px;
+        margin-left: 0px;
+        width: 350px;
+        height: 930px;
+        text-align: center;
+    }
+
+    .caixa_nome{
+        width: 250px;
+        height: 30px;
+        margin-left: -30px;
+        margin-top: -30px;
+    }
+
+    .caixa_sobrenome{
+        width: 300px;
+        height: 30px;
+        margin-left: -10px;
+        margin-top: 0px;
+    }
+    
+    .caixa-email{
+        width: 271px;
+        height: 30px;
+        margin-left: -px;
+        margin-top: 0px;
+    }
+
+    .caixa-senha{
+        width: 271px;
+        height: 30px;
+        margin-left: -px;
+        margin-top: 0px;
+    }
+
+    .all_nascimento{
+        width: 271px;
+        height: 30px;
+        margin-left: 10px;
+        margin-top: -50px;
+        
+    }
+    
+    .all_nascimento_caixas{
+        margin-top: -15px;
+        padding: 10px 10px;
+        margin-left: -30px;
+        display: grid;
+    }
+
+    .dia{
+        margin-top: 20px;
+        display: inline;
+        padding: 10px 10px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .mes{
+        display: inline;
+        padding: 10px 10px;
+        font-size: 20px;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .ano{
+        display: inline;
+        padding: 10px 10px;
+        font-size: 20px;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .all_genero{
+        
+        margin-left: 10px;
+        margin-top: 190px;
+        width: 271px;
+        height: 300px;
+    }
+
+    .all_genero_caixas{
+        justify-content: center;
+        display: grid;
+        width: 271px;
+        height: 30px;
+        margin-left: -10px;
+        margin-top: 20px;
+    }
+    
+    .radio_F{
+        font-size: 20px;
+        text-align: justify;
+    }
+
+    .radio_M{
+        font-size: 20px;
+        margin-top: 10px;
+        text-align: justify;
+    }
+
+    .radio_N{
+        font-size: 20px;
+        margin-top: 10px;
+        text-align: justify;
+    }
+
+    .botao_cadastre-se{
+        margin-top: 50px;
+        margin-left: -10px;
+    }
+    
+    #cadastre-se{
+        padding: 20px 40px;
+    }
+
+    .botao_jatenhoConta{
+        margin-top: 60px;
+        margin-left: -10px;
+    }
+    
+    #jatenhoConta{
+        padding: 10px 10px;
+
+    
+    }
+
+    #icon{
+        transform: translateY(-130%);
+        background: url("./img/on.png");
+        background-size: cover;
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+        margin-left: 240px;
+    }
+    
+    #icon.hide{
+        background: url("./img/off.png");
+        background-size: cover;
+    }
+
+    .linha{
+        margin-top: 130px;
+        margin-left: -100px;      
+    }
+}
