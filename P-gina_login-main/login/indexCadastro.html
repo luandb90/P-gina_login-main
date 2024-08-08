@@ -12,15 +12,15 @@
     <div class="container">
         <div class="all">
             <div class="caixa_nome">
-                <input class="caixa-nome" placeholder="Nome" type="text" id="txt" />
+                <input class="caixa-nome" placeholder="Nome" type="text" id="nomecard" />
                     <br>
                     <br>
                 <div class="caixa_sobrenome">
-                <input class="caixa-sobrenome" placeholder="Sobrenome" type="text" id="txt" /></div>
+                <input class="caixa-sobrenome" placeholder="Sobrenome" type="text" id="sobrenomecard" /></div>
                     <br>
                     <br>
                 <div class="caixa_email">
-                <input class="caixa-email" placeholder="E-mail" type="text" id="txt" />
+                <input class="caixa-email" placeholder="E-mail" type="text" id="email" />
                     <br>
                     <br>
                 <div class="caixa_senha">   
@@ -33,7 +33,7 @@
                 <div class="all_nascimento">
                 <label class="h1_data">Data de nascimento</label>
                 <div class="all_nascimento_caixas">
-                <select class="dia" id="idade">
+                <select class="dia" id="diacard">
                     <option selected disabled value="">Dia</option>
                     <option>1</option>
                     <option>2</option>
@@ -67,7 +67,7 @@
                     <option>31</option>
                 </select>
 
-                <select class="mes" id="idade">
+                <select class="mes" id="mescard">
                     <option selected disabled value="">Mês</option>
                     <option>janeiro</option>
                     <option>Fevereiro</option>
@@ -83,7 +83,7 @@
                     <option>dezembro</option>
                 </select>
 
-                <select class="ano" id="idade">
+                <select class="ano" id="anocard">
                     <option selected disabled value="">Ano</option>
                     <option>2024</option>
                     <option>2023</option>
@@ -200,7 +200,7 @@
                 <div class="all_genero">
                     <label class="nome_genero">Selecione o gênero</label>
                     <div class="all_genero_caixas">  
-                    <label class="radio_F">
+                    <label class="radio_F" id="generocard">
                             <input type="radio" name="genero" value="feminino"> Feminino
                         </label>
                         <label class="radio_M">
@@ -214,7 +214,7 @@
 
 
                 <div class="botao_cadastre-se">
-                    <a id="cadastre-se" href="#">Cadastre-se</a>
+                    <a onclick="cadastrar()" type="submit" value="enviar--cadastro" id="cadastre-se" href="#">Cadastre-se</a>
                 </div>
 
                 <div class="botao_jatenhoConta">
@@ -227,6 +227,6 @@
     
 </div>
 
-<script src="script.js"></script>
+<script src="acesso.js"></script>
 </body>
 </html>

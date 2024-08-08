@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Pagina de login</title>
+    <title>Página de login</title>
 </head>
 
 <body>
@@ -15,15 +15,15 @@
     </div>
     <div class="all">
         <div class="caixa">
-        <input class="caixa-email" placeholder="E-mail" type="text" id="txt" />
+        <input class="caixa-email" placeholder="E-mail" type="text" id="email"/>
         <br>
         <br>
-        <input class="caixa-senha" placeholder="Senha" type="password" id="password" />
+        <input class="caixa-senha" placeholder="Senha" type="password" id="password"/>
         <div id="icon" onclick="showHide()"></div>
         <br>
 
         <div class="botao_entrar">
-            <a id="entrar" href="#">Entrar</a>
+            <a onclick="logar()" value="Entrar" id="btn-entrar" href="#">Entrar</a>
             <br>
         </div>
     <div class="botao">
@@ -32,12 +32,12 @@
     </div>
 
     <div class="botao_nova_conta"></div>
-        <a id="nova_conta" href="indexCadastro.html">Criar nova conta</a>
+        <a onclick="novaConta()" value="novaConta" id="btn-novaConta" href="indexCadastro.html">Criar nova conta</a>
     </div>
     </div>
 </div>
 
 
-<script src="script.js"></script>
+<script src="login.js"></script>
 </body>
 </html>

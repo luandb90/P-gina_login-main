@@ -74,7 +74,7 @@ body {
     margin-left: -100px;
 }
 
-#entrar{
+#btn-entrar{
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-decoration: none;
     font-size: 30px;
@@ -87,7 +87,7 @@ body {
 
 }
 
-#entrar:hover{
+#btn-entrar:hover{
     background-color: rgb(40, 132, 186);
 }
 
@@ -111,7 +111,7 @@ body {
     margin-top: 50px;
 }
 
-#nova_conta{
+#btn-novaConta{
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-decoration: none;
     font-size: 20px;
@@ -124,7 +124,7 @@ body {
 
 }
 
-#nova_conta:hover{
+#btn-novaConta:hover{
     background-color: rgb(61, 190, 59);
 }
 
@@ -175,7 +175,7 @@ body {
         background-size: cover;
     }
 
-    #entrar{
+    #btn-entrar{
         margin-left: 45px;
         padding: 10px 110px;
     }
